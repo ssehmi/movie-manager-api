@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieManager", "MovieManager\MovieManager.csproj", "{1F07618E-7ED5-4FF8-8837-9D9F5DB2F2B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{523940DE-553D-493D-BCD4-5ABED0FCEBF7}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{117C6C56-3D6D-4E8E-83D6-D2079BFE2918}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\MovieManager-WAWS-dev.json = PublishScripts\Configurations\MovieManager-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F07618E-7ED5-4FF8-8837-9D9F5DB2F2B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F07618E-7ED5-4FF8-8837-9D9F5DB2F2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F07618E-7ED5-4FF8-8837-9D9F5DB2F2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F07618E-7ED5-4FF8-8837-9D9F5DB2F2B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{117C6C56-3D6D-4E8E-83D6-D2079BFE2918} = {523940DE-553D-493D-BCD4-5ABED0FCEBF7}
+	EndGlobalSection
+EndGlobal
